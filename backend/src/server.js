@@ -64,8 +64,7 @@ app.post("/api/book", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`🚀 Court Booking API running on port ${PORT}`);
-  console.log(`📚 OpenAPI docs available at http://localhost:${PORT}/api/openapi.json`);
+const PORT = process.env.PORT || 10000;
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`API running on :${PORT}`);
 });
