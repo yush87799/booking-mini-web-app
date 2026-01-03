@@ -25,6 +25,11 @@ app.use(
   })
 );
 
+// Homepage route
+app.get("/", (req, res) => {
+  res.send("API is running ✅ Try /health or /api/slots");
+});
+
 // Health check endpoint
 app.get("/health", (req, res) => res.json({ ok: true }));
 
