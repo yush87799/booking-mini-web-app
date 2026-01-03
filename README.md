@@ -157,8 +157,8 @@ cd mini-booking-app
    ```
 
 5. **Verify backend is running:**
-   - You should see: `🚀 Court Booking API running on port 5000`
-   - Open browser and visit: `http://localhost:5000/health`
+   - You should see: `API running on :10000`
+   - Open browser and visit: `http://localhost:10000/health`
    - You should see: `{"ok":true}`
 
 ### Step 3: Frontend Setup
@@ -203,7 +203,7 @@ cd mini-booking-app
    
    Add the following content to `.env.local`:
    ```
-   NEXT_PUBLIC_API_URL=http://localhost:5000
+   NEXT_PUBLIC_API_URL=http://localhost:10000
    ```
 
 4. **Start the frontend development server:**
@@ -220,14 +220,14 @@ cd mini-booking-app
 Once both servers are running:
 
 - **Frontend Application**: http://localhost:3000
-- **Backend API**: http://localhost:5000
-- **API Health Check**: http://localhost:5000/health
-- **OpenAPI Documentation**: http://localhost:5000/api/openapi.json
+- **Backend API**: http://localhost:10000
+- **API Health Check**: http://localhost:10000/health
+- **OpenAPI Documentation**: http://localhost:10000/api/openapi.json
 
 ### Troubleshooting Setup Issues
 
 **Issue: Port already in use**
-- Backend: Change port in `backend/src/server.js` or set `PORT` environment variable
+- Backend: Change port in `backend/src/server.js` (default is 10000) or set `PORT` environment variable
 - Frontend: Change port by running `npm run dev -- -p 3001`
 
 **Issue: npm install fails**
@@ -236,8 +236,8 @@ Once both servers are running:
 - Check Node.js version: `node --version` (should be v18+)
 
 **Issue: Frontend can't connect to backend**
-- Verify backend is running on port 5000
-- Check `.env.local` file exists and has correct URL
+- Verify backend is running on port 10000 (default port)
+- Check `.env.local` file exists and has correct URL (`http://localhost:10000`)
 - Restart frontend server after creating `.env.local`
 
 **Issue: TypeScript errors**
@@ -253,7 +253,7 @@ mini-booking-app/
 │   │   ├── server.js          # Express server setup and route handlers
 │   │   ├── store.js           # Data access layer (read/write slots.json)
 │   │   ├── slots.json         # JSON database (auto-generated)
-│   │   └── openapi.json       # OpenAPI 3.0 API documentation
+│   │   └── openapi.json      # OpenAPI 3.0 API documentation
 │   ├── node_modules/          # Backend dependencies (auto-generated)
 │   ├── package.json           # Backend dependencies and scripts
 │   └── package-lock.json      # Locked dependency versions
@@ -261,22 +261,50 @@ mini-booking-app/
 ├── frontend/
 │   └── mini-booking-app/
 │       ├── src/
-│       │   └── app/
-│       │       ├── page.tsx   # Main booking page component
-│       │       ├── layout.tsx # Root layout with metadata
-│       │       ├── globals.css # Global styles and Tailwind imports
-│       │       └── favicon.ico # Site favicon
-│       ├── public/            # Static assets (SVG icons)
-│       ├── node_modules/      # Frontend dependencies (auto-generated)
-│       ├── .env.local         # Environment variables (create this)
-│       ├── package.json       # Frontend dependencies and scripts
-│       ├── package-lock.json  # Locked dependency versions
-│       ├── tsconfig.json      # TypeScript configuration
-│       ├── next.config.ts     # Next.js configuration
-│       ├── postcss.config.mjs # PostCSS configuration for Tailwind
-│       └── eslint.config.mjs  # ESLint configuration
+│       │   ├── app/
+│       │   │   ├── page.tsx   # Main booking page component
+│       │   │   ├── layout.tsx # Root layout with metadata
+│       │   │   ├── globals.css # Global styles and Tailwind imports
+│       │   │   └── favicon.ico # Site favicon
+│       │   ├── components/
+│       │   │   ├── Calendar/
+│       │   │   │   ├── Calendar.tsx      # Main calendar component
+│       │   │   │   ├── CalendarDay.tsx   # Individual day component
+│       │   │   │   ├── CalendarGrid.tsx  # Calendar grid layout
+│       │   │   │   └── CalendarHeader.tsx # Calendar header with navigation
+│       │   │   ├── DayModal/
+│       │   │   │   ├── DayModal.tsx      # Modal for viewing/booking slots
+│       │   │   │   └── TimeSlot.tsx      # Individual time slot component
+│       │   │   ├── CourtInfo.tsx         # Court information display
+│       │   │   ├── Footer.tsx            # Footer component
+│       │   │   ├── Header.tsx            # Header component
+│       │   │   ├── LoadingSpinner.tsx    # Loading indicator
+│       │   │   ├── MessageAlert.tsx      # Success/error message display
+│       │   │   └── NameInput.tsx         # Customer name input field
+│       │   ├── hooks/
+│       │   │   └── useSlots.ts           # Custom hook for slot management
+│       │   ├── types/
+│       │   │   └── index.ts              # TypeScript type definitions
+│       │   └── utils/
+│       │       └── dateUtils.ts          # Date formatting and calendar utilities
+│       ├── public/                       # Static assets (SVG icons)
+│       │   ├── file.svg
+│       │   ├── globe.svg
+│       │   ├── next.svg
+│       │   ├── vercel.svg
+│       │   └── window.svg
+│       ├── node_modules/                # Frontend dependencies (auto-generated)
+│       ├── .env.local                   # Environment variables (create this)
+│       ├── package.json                 # Frontend dependencies and scripts
+│       ├── package-lock.json            # Locked dependency versions
+│       ├── tsconfig.json                # TypeScript configuration
+│       ├── next.config.ts               # Next.js configuration
+│       ├── postcss.config.mjs           # PostCSS configuration for Tailwind
+│       ├── eslint.config.mjs            # ESLint configuration
+│       ├── next-env.d.ts                # Next.js TypeScript declarations
+│       └── README.md                    # Frontend-specific README (if exists)
 │
-└── README.md                  # This file
+└── README.md                            # This file
 ```
 
 ## 🔌 Complete API Documentation
@@ -286,7 +314,7 @@ The API follows RESTful principles and returns JSON responses. All endpoints are
 ### Base URL
 
 ```
-Development: http://localhost:5000
+Development: http://localhost:10000
 Production: https://your-backend-url.com
 ```
 
@@ -348,12 +376,12 @@ Content-Type: application/json
 
 **Example using cURL:**
 ```bash
-curl -X GET http://localhost:5000/api/slots
+curl -X GET http://localhost:10000/api/slots
 ```
 
 **Example using JavaScript (fetch):**
 ```javascript
-const response = await fetch('http://localhost:5000/api/slots');
+const response = await fetch('http://localhost:10000/api/slots');
 const data = await response.json();
 console.log(data.slots);
 ```
@@ -464,7 +492,7 @@ Content-Type: application/json
 
 **Example using cURL:**
 ```bash
-curl -X POST http://localhost:5000/api/book \
+curl -X POST http://localhost:10000/api/book \
   -H "Content-Type: application/json" \
   -d '{
     "slotId": "slot_202601150700",
@@ -474,7 +502,7 @@ curl -X POST http://localhost:5000/api/book \
 
 **Example using JavaScript (fetch):**
 ```javascript
-const response = await fetch('http://localhost:5000/api/book', {
+const response = await fetch('http://localhost:10000/api/book', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -497,7 +525,7 @@ if (response.ok) {
 ```python
 import requests
 
-url = "http://localhost:5000/api/book"
+url = "http://localhost:10000/api/book"
 payload = {
     "slotId": "slot_202601150700",
     "customerName": "John Doe"
@@ -542,12 +570,12 @@ Health check endpoint to verify API is running.
 
 **Example using cURL:**
 ```bash
-curl -X GET http://localhost:5000/health
+curl -X GET http://localhost:10000/health
 ```
 
 **Example using JavaScript (fetch):**
 ```javascript
-const response = await fetch('http://localhost:5000/health');
+const response = await fetch('http://localhost:10000/health');
 const data = await response.json();
 console.log('API Status:', data.ok ? 'Healthy' : 'Unhealthy');
 ```
@@ -592,7 +620,7 @@ Get the OpenAPI 3.0 specification for the API.
 
 **Example using cURL:**
 ```bash
-curl -X GET http://localhost:5000/api/openapi.json
+curl -X GET http://localhost:10000/api/openapi.json
 ```
 
 ---
@@ -619,6 +647,8 @@ The API is configured to accept requests from:
 - `http://localhost:3000` (development frontend)
 - Any origin specified in `FRONTEND_URL` environment variable
 - All origins in development (can be restricted in production)
+
+**Note:** The backend server runs on port **10000** by default (not 5000). This can be changed by setting the `PORT` environment variable.
 
 ### Rate Limiting
 
@@ -667,7 +697,7 @@ Currently, there is no rate limiting implemented. For production, consider addin
    - Build Command: `npm install`
    - Start Command: `npm start`
 6. **Environment Variables:**
-   - `PORT`: (auto-set by Railway)
+   - `PORT`: 10000 (or leave default, Railway will auto-set)
    - `FRONTEND_URL`: Your frontend URL
 7. **Deploy:** Railway will automatically deploy
 
@@ -683,7 +713,7 @@ Currently, there is no rate limiting implemented. For production, consider addin
    - Build Command: `npm install`
    - Start Command: `npm start`
 5. **Environment Variables:**
-   - `PORT`: 5000 (or leave default)
+   - `PORT`: 10000 (or leave default)
    - `FRONTEND_URL`: Your frontend URL
 6. **Deploy:** Click "Create Web Service"
 
@@ -711,9 +741,11 @@ NEXT_PUBLIC_API_URL=https://your-backend-url.com
 
 **Backend (Railway/Render/Heroku Environment Variables):**
 ```
-PORT=5000
+PORT=10000
 FRONTEND_URL=https://your-frontend-url.com
 ```
+
+**Note:** The default backend port is 10000. If deploying to a platform that sets the PORT automatically (like Railway or Render), you can omit the PORT variable and the server will use the platform-provided port.
 
 ## 📱 Mobile Responsiveness
 
@@ -802,13 +834,13 @@ For production deployment, consider implementing:
 3. **Test API Directly:**
    ```bash
    # Health check
-   curl http://localhost:5000/health
+   curl http://localhost:10000/health
 
    # Get all slots
-   curl http://localhost:5000/api/slots
+   curl http://localhost:10000/api/slots
 
    # Book a slot
-   curl -X POST http://localhost:5000/api/book \
+   curl -X POST http://localhost:10000/api/book \
      -H "Content-Type: application/json" \
      -d '{"slotId":"slot_202601150700","customerName":"Test User"}'
    ```
@@ -872,39 +904,149 @@ For production deployment, consider implementing:
    - Clear visual feedback
    - Error handling with user-friendly messages
 
+### Frontend Architecture
+
+The frontend is built with Next.js 16 using the App Router pattern and follows a component-based architecture:
+
+#### Component Structure
+
+**Main Page (`src/app/page.tsx`):**
+- Root component that orchestrates all features
+- Manages global state (name, selected date, modal visibility)
+- Integrates all components and hooks
+
+**Calendar Components (`src/components/Calendar/`):**
+- `Calendar.tsx`: Main calendar container with month navigation
+- `CalendarHeader.tsx`: Month/year display with previous/next buttons
+- `CalendarGrid.tsx`: Grid layout for calendar days
+- `CalendarDay.tsx`: Individual day component with availability indicators
+
+**Modal Components (`src/components/DayModal/`):**
+- `DayModal.tsx`: Modal dialog for viewing and booking slots for a selected date
+- `TimeSlot.tsx`: Individual time slot button with booking functionality
+
+**UI Components:**
+- `Header.tsx`: Application header with title
+- `Footer.tsx`: Footer with author information
+- `NameInput.tsx`: Customer name input field
+- `MessageAlert.tsx`: Success/error message display
+- `LoadingSpinner.tsx`: Loading indicator
+- `CourtInfo.tsx`: Court information display
+
+#### Custom Hooks
+
+**`useSlots` (`src/hooks/useSlots.ts`):**
+- Manages slot data fetching and booking logic
+- Handles API communication with backend
+- Groups slots by date for calendar display
+- Manages loading states and error messages
+- Provides `loadSlots()` and `bookSlot()` functions
+
+#### Utilities
+
+**`dateUtils.ts` (`src/utils/dateUtils.ts`):**
+- `formatDate()`: Formats dates as "Today", "Tomorrow", or "Day, Month Day"
+- `generateCalendarDays()`: Generates calendar grid for a given month
+- `getMonthYearLabel()`: Formats month and year for display
+
+#### Type Definitions
+
+**`types/index.ts`:**
+- `Slot`: Type definition for booking slots
+- `MessageType`: Type for success/error messages
+- `CalendarDay`: Type for calendar day objects
+
+#### Data Flow
+
+1. **Initial Load:**
+   - `page.tsx` renders → `useSlots` hook initializes → Fetches slots from API
+   - Slots are grouped by date → Calendar displays available dates
+
+2. **Booking Flow:**
+   - User enters name → Clicks date → Modal opens with slots
+   - User clicks time slot → `bookSlot()` called → API request sent
+   - On success: Slots refreshed, success message shown
+   - On error: Error message displayed
+
+3. **State Management:**
+   - Component-level state for UI (modals, selected dates)
+   - Hook-level state for data (slots, loading, messages)
+   - No external state management library needed
+
 ### Backend Architecture
 
-1. **Server Setup:**
-   - Express.js with JSON body parsing
-   - CORS middleware for cross-origin requests
-   - Error handling middleware
-   - Health check endpoint
+The backend is built with Express.js 5 and uses a simple file-based storage system:
 
-2. **Data Layer:**
-   - File-based storage with `store.js`
-   - Promise-based write operations with locking
-   - Automatic slot generation
-   - Data validation
+#### Server Setup (`backend/src/server.js`)
 
-3. **API Design:**
-   - RESTful endpoints
-   - Consistent error responses
-   - OpenAPI documentation
-   - Proper HTTP status codes
+- **Express Configuration:**
+  - JSON body parsing middleware
+  - CORS middleware configured for frontend origins
+  - Listens on port 10000 by default (configurable via `PORT` env variable)
+  - Binds to `0.0.0.0` for Docker/cloud deployment compatibility
+
+- **API Endpoints:**
+  - `GET /`: Homepage route with API status
+  - `GET /health`: Health check endpoint
+  - `GET /api/openapi.json`: OpenAPI 3.0 specification
+  - `GET /api/slots`: Fetch all available slots
+  - `POST /api/book`: Book a slot
+
+#### Data Layer (`backend/src/store.js`)
+
+- **File Storage:**
+  - Uses `slots.json` as a simple JSON database
+  - Located at `backend/src/slots.json`
+  - Auto-generated on first run
+
+- **Slot Generation Logic:**
+  - Generates slots for the next 30 days automatically
+  - Time slots: 07:00, 08:00, 09:00, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00
+  - Excludes Mondays (maintenance day)
+  - Preserves existing bookings when regenerating slots
+  - Filters out past dates automatically
+
+- **Write Operations:**
+  - Promise-based write operations with in-process locking
+  - Prevents concurrent write conflicts
+  - Synchronous file I/O for simplicity
+
+- **Functions:**
+  - `getSlots()`: Fetches and generates slots, returns sorted array
+  - `bookSlot(slotId, customerName)`: Books a slot, returns result object
+
+#### API Design
+
+- **RESTful Principles:**
+  - GET for fetching data
+  - POST for creating/booking resources
+  - Consistent JSON response format
+
+- **Error Handling:**
+  - 400 Bad Request: Missing or invalid parameters
+  - 404 Not Found: Resource doesn't exist
+  - 409 Conflict: Business rule violation (e.g., already booked)
+  - 500 Internal Server Error: Server-side errors
+
+- **OpenAPI Documentation:**
+  - Complete API specification in `backend/src/openapi.json`
+  - Can be imported into Swagger UI or Postman
+  - Includes request/response schemas
 
 ## 🐛 Troubleshooting
 
 ### Common Issues and Solutions
 
 **Issue: Backend won't start**
-- Check if port 5000 is already in use
+- Check if port 10000 is already in use (default port)
 - Verify Node.js version: `node --version` (should be v18+)
 - Delete `node_modules` and run `npm install` again
-- Check for syntax errors in `server.js`
+- Check for syntax errors in `backend/src/server.js`
+- You can change the port by setting `PORT` environment variable
 
 **Issue: Frontend shows "Failed to load slots"**
-- Verify backend is running on port 5000
-- Check `.env.local` file exists and has correct URL
+- Verify backend is running on port 10000 (default port)
+- Check `.env.local` file exists and has correct URL (`http://localhost:10000`)
 - Open browser console for detailed error messages
 - Verify CORS is configured correctly
 
