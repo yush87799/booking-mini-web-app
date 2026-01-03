@@ -1,0 +1,1888 @@
+{
+  "slots": [
+    {
+      "id": "slot_20260103_0700",
+      "date": "2026-01-03",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260103_0800",
+      "date": "2026-01-03",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260103_0900",
+      "date": "2026-01-03",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260103_1000",
+      "date": "2026-01-03",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260103_1100",
+      "date": "2026-01-03",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260103_1200",
+      "date": "2026-01-03",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260103_1300",
+      "date": "2026-01-03",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260103_1400",
+      "date": "2026-01-03",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260103_1500",
+      "date": "2026-01-03",
+      "time": "15:00",
+      "booked": true,
+      "bookedBy": "Arpan Shrivastava",
+      "bookedAt": "2026-01-03T05:15:08.175Z"
+    },
+    {
+      "id": "slot_20260103_1600",
+      "date": "2026-01-03",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260103_1700",
+      "date": "2026-01-03",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260103_1800",
+      "date": "2026-01-03",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_0700",
+      "date": "2026-01-04",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_0800",
+      "date": "2026-01-04",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_0900",
+      "date": "2026-01-04",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_1000",
+      "date": "2026-01-04",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_1100",
+      "date": "2026-01-04",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_1200",
+      "date": "2026-01-04",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_1300",
+      "date": "2026-01-04",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_1400",
+      "date": "2026-01-04",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_1500",
+      "date": "2026-01-04",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_1600",
+      "date": "2026-01-04",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_1700",
+      "date": "2026-01-04",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260104_1800",
+      "date": "2026-01-04",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_0700",
+      "date": "2026-01-06",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_0800",
+      "date": "2026-01-06",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_0900",
+      "date": "2026-01-06",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_1000",
+      "date": "2026-01-06",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_1100",
+      "date": "2026-01-06",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_1200",
+      "date": "2026-01-06",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_1300",
+      "date": "2026-01-06",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_1400",
+      "date": "2026-01-06",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_1500",
+      "date": "2026-01-06",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_1600",
+      "date": "2026-01-06",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_1700",
+      "date": "2026-01-06",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260106_1800",
+      "date": "2026-01-06",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_0700",
+      "date": "2026-01-07",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_0800",
+      "date": "2026-01-07",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_0900",
+      "date": "2026-01-07",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_1000",
+      "date": "2026-01-07",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_1100",
+      "date": "2026-01-07",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_1200",
+      "date": "2026-01-07",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_1300",
+      "date": "2026-01-07",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_1400",
+      "date": "2026-01-07",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_1500",
+      "date": "2026-01-07",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_1600",
+      "date": "2026-01-07",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_1700",
+      "date": "2026-01-07",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260107_1800",
+      "date": "2026-01-07",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_0700",
+      "date": "2026-01-08",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_0800",
+      "date": "2026-01-08",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_0900",
+      "date": "2026-01-08",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_1000",
+      "date": "2026-01-08",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_1100",
+      "date": "2026-01-08",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_1200",
+      "date": "2026-01-08",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_1300",
+      "date": "2026-01-08",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_1400",
+      "date": "2026-01-08",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_1500",
+      "date": "2026-01-08",
+      "time": "15:00",
+      "booked": true,
+      "bookedBy": "Pratyush Shrivastava",
+      "bookedAt": "2026-01-03T05:15:26.343Z"
+    },
+    {
+      "id": "slot_20260108_1600",
+      "date": "2026-01-08",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_1700",
+      "date": "2026-01-08",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260108_1800",
+      "date": "2026-01-08",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_0700",
+      "date": "2026-01-09",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_0800",
+      "date": "2026-01-09",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_0900",
+      "date": "2026-01-09",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_1000",
+      "date": "2026-01-09",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_1100",
+      "date": "2026-01-09",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_1200",
+      "date": "2026-01-09",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_1300",
+      "date": "2026-01-09",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_1400",
+      "date": "2026-01-09",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_1500",
+      "date": "2026-01-09",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_1600",
+      "date": "2026-01-09",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_1700",
+      "date": "2026-01-09",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260109_1800",
+      "date": "2026-01-09",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_0700",
+      "date": "2026-01-10",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_0800",
+      "date": "2026-01-10",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_0900",
+      "date": "2026-01-10",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_1000",
+      "date": "2026-01-10",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_1100",
+      "date": "2026-01-10",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_1200",
+      "date": "2026-01-10",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_1300",
+      "date": "2026-01-10",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_1400",
+      "date": "2026-01-10",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_1500",
+      "date": "2026-01-10",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_1600",
+      "date": "2026-01-10",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_1700",
+      "date": "2026-01-10",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260110_1800",
+      "date": "2026-01-10",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_0700",
+      "date": "2026-01-11",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_0800",
+      "date": "2026-01-11",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_0900",
+      "date": "2026-01-11",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_1000",
+      "date": "2026-01-11",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_1100",
+      "date": "2026-01-11",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_1200",
+      "date": "2026-01-11",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_1300",
+      "date": "2026-01-11",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_1400",
+      "date": "2026-01-11",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_1500",
+      "date": "2026-01-11",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_1600",
+      "date": "2026-01-11",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_1700",
+      "date": "2026-01-11",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260111_1800",
+      "date": "2026-01-11",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_0700",
+      "date": "2026-01-13",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_0800",
+      "date": "2026-01-13",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_0900",
+      "date": "2026-01-13",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_1000",
+      "date": "2026-01-13",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_1100",
+      "date": "2026-01-13",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_1200",
+      "date": "2026-01-13",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_1300",
+      "date": "2026-01-13",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_1400",
+      "date": "2026-01-13",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_1500",
+      "date": "2026-01-13",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_1600",
+      "date": "2026-01-13",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_1700",
+      "date": "2026-01-13",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260113_1800",
+      "date": "2026-01-13",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_0700",
+      "date": "2026-01-14",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_0800",
+      "date": "2026-01-14",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_0900",
+      "date": "2026-01-14",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_1000",
+      "date": "2026-01-14",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_1100",
+      "date": "2026-01-14",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_1200",
+      "date": "2026-01-14",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_1300",
+      "date": "2026-01-14",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_1400",
+      "date": "2026-01-14",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_1500",
+      "date": "2026-01-14",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_1600",
+      "date": "2026-01-14",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_1700",
+      "date": "2026-01-14",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260114_1800",
+      "date": "2026-01-14",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_1",
+      "date": "2026-01-15",
+      "time": "07:00",
+      "booked": true,
+      "bookedBy": "Arpan Shrivastava",
+      "bookedAt": "2026-01-03T05:03:34.158Z"
+    },
+    {
+      "id": "slot_2",
+      "date": "2026-01-15",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_3",
+      "date": "2026-01-15",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_4",
+      "date": "2026-01-15",
+      "time": "10:00",
+      "booked": true,
+      "bookedBy": "John Doe",
+      "bookedAt": "2026-01-10T08:00:00.000Z"
+    },
+    {
+      "id": "slot_5",
+      "date": "2026-01-15",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_6",
+      "date": "2026-01-15",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_7",
+      "date": "2026-01-15",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_8",
+      "date": "2026-01-15",
+      "time": "14:00",
+      "booked": true,
+      "bookedBy": "Jane Smith",
+      "bookedAt": "2026-01-10T09:30:00.000Z"
+    },
+    {
+      "id": "slot_9",
+      "date": "2026-01-15",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_10",
+      "date": "2026-01-15",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_11",
+      "date": "2026-01-15",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_12",
+      "date": "2026-01-15",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_13",
+      "date": "2026-01-16",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_14",
+      "date": "2026-01-16",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_15",
+      "date": "2026-01-16",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_16",
+      "date": "2026-01-16",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_17",
+      "date": "2026-01-16",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_18",
+      "date": "2026-01-16",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_19",
+      "date": "2026-01-16",
+      "time": "13:00",
+      "booked": true,
+      "bookedBy": "Mike Johnson",
+      "bookedAt": "2026-01-11T10:00:00.000Z"
+    },
+    {
+      "id": "slot_20",
+      "date": "2026-01-16",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_21",
+      "date": "2026-01-16",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_22",
+      "date": "2026-01-16",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_23",
+      "date": "2026-01-16",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_24",
+      "date": "2026-01-16",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_0700",
+      "date": "2026-01-17",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_0800",
+      "date": "2026-01-17",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_0900",
+      "date": "2026-01-17",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_1000",
+      "date": "2026-01-17",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_1100",
+      "date": "2026-01-17",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_1200",
+      "date": "2026-01-17",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_1300",
+      "date": "2026-01-17",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_1400",
+      "date": "2026-01-17",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_1500",
+      "date": "2026-01-17",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_1600",
+      "date": "2026-01-17",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_1700",
+      "date": "2026-01-17",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260117_1800",
+      "date": "2026-01-17",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_0700",
+      "date": "2026-01-18",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_0800",
+      "date": "2026-01-18",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_0900",
+      "date": "2026-01-18",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_1000",
+      "date": "2026-01-18",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_1100",
+      "date": "2026-01-18",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_1200",
+      "date": "2026-01-18",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_1300",
+      "date": "2026-01-18",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_1400",
+      "date": "2026-01-18",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_1500",
+      "date": "2026-01-18",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_1600",
+      "date": "2026-01-18",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_1700",
+      "date": "2026-01-18",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260118_1800",
+      "date": "2026-01-18",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_0700",
+      "date": "2026-01-20",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_0800",
+      "date": "2026-01-20",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_0900",
+      "date": "2026-01-20",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_1000",
+      "date": "2026-01-20",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_1100",
+      "date": "2026-01-20",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_1200",
+      "date": "2026-01-20",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_1300",
+      "date": "2026-01-20",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_1400",
+      "date": "2026-01-20",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_1500",
+      "date": "2026-01-20",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_1600",
+      "date": "2026-01-20",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_1700",
+      "date": "2026-01-20",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260120_1800",
+      "date": "2026-01-20",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_0700",
+      "date": "2026-01-21",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_0800",
+      "date": "2026-01-21",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_0900",
+      "date": "2026-01-21",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_1000",
+      "date": "2026-01-21",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_1100",
+      "date": "2026-01-21",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_1200",
+      "date": "2026-01-21",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_1300",
+      "date": "2026-01-21",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_1400",
+      "date": "2026-01-21",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_1500",
+      "date": "2026-01-21",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_1600",
+      "date": "2026-01-21",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_1700",
+      "date": "2026-01-21",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260121_1800",
+      "date": "2026-01-21",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_0700",
+      "date": "2026-01-22",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_0800",
+      "date": "2026-01-22",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_0900",
+      "date": "2026-01-22",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_1000",
+      "date": "2026-01-22",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_1100",
+      "date": "2026-01-22",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_1200",
+      "date": "2026-01-22",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_1300",
+      "date": "2026-01-22",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_1400",
+      "date": "2026-01-22",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_1500",
+      "date": "2026-01-22",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_1600",
+      "date": "2026-01-22",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_1700",
+      "date": "2026-01-22",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260122_1800",
+      "date": "2026-01-22",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_0700",
+      "date": "2026-01-23",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_0800",
+      "date": "2026-01-23",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_0900",
+      "date": "2026-01-23",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_1000",
+      "date": "2026-01-23",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_1100",
+      "date": "2026-01-23",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_1200",
+      "date": "2026-01-23",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_1300",
+      "date": "2026-01-23",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_1400",
+      "date": "2026-01-23",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_1500",
+      "date": "2026-01-23",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_1600",
+      "date": "2026-01-23",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_1700",
+      "date": "2026-01-23",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260123_1800",
+      "date": "2026-01-23",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_0700",
+      "date": "2026-01-24",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_0800",
+      "date": "2026-01-24",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_0900",
+      "date": "2026-01-24",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_1000",
+      "date": "2026-01-24",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_1100",
+      "date": "2026-01-24",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_1200",
+      "date": "2026-01-24",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_1300",
+      "date": "2026-01-24",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_1400",
+      "date": "2026-01-24",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_1500",
+      "date": "2026-01-24",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_1600",
+      "date": "2026-01-24",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_1700",
+      "date": "2026-01-24",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260124_1800",
+      "date": "2026-01-24",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_0700",
+      "date": "2026-01-25",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_0800",
+      "date": "2026-01-25",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_0900",
+      "date": "2026-01-25",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_1000",
+      "date": "2026-01-25",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_1100",
+      "date": "2026-01-25",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_1200",
+      "date": "2026-01-25",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_1300",
+      "date": "2026-01-25",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_1400",
+      "date": "2026-01-25",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_1500",
+      "date": "2026-01-25",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_1600",
+      "date": "2026-01-25",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_1700",
+      "date": "2026-01-25",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260125_1800",
+      "date": "2026-01-25",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_0700",
+      "date": "2026-01-27",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_0800",
+      "date": "2026-01-27",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_0900",
+      "date": "2026-01-27",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_1000",
+      "date": "2026-01-27",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_1100",
+      "date": "2026-01-27",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_1200",
+      "date": "2026-01-27",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_1300",
+      "date": "2026-01-27",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_1400",
+      "date": "2026-01-27",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_1500",
+      "date": "2026-01-27",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_1600",
+      "date": "2026-01-27",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_1700",
+      "date": "2026-01-27",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260127_1800",
+      "date": "2026-01-27",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_0700",
+      "date": "2026-01-28",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_0800",
+      "date": "2026-01-28",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_0900",
+      "date": "2026-01-28",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_1000",
+      "date": "2026-01-28",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_1100",
+      "date": "2026-01-28",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_1200",
+      "date": "2026-01-28",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_1300",
+      "date": "2026-01-28",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_1400",
+      "date": "2026-01-28",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_1500",
+      "date": "2026-01-28",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_1600",
+      "date": "2026-01-28",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_1700",
+      "date": "2026-01-28",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260128_1800",
+      "date": "2026-01-28",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_0700",
+      "date": "2026-01-29",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_0800",
+      "date": "2026-01-29",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_0900",
+      "date": "2026-01-29",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_1000",
+      "date": "2026-01-29",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_1100",
+      "date": "2026-01-29",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_1200",
+      "date": "2026-01-29",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_1300",
+      "date": "2026-01-29",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_1400",
+      "date": "2026-01-29",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_1500",
+      "date": "2026-01-29",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_1600",
+      "date": "2026-01-29",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_1700",
+      "date": "2026-01-29",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260129_1800",
+      "date": "2026-01-29",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_0700",
+      "date": "2026-01-30",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_0800",
+      "date": "2026-01-30",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_0900",
+      "date": "2026-01-30",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_1000",
+      "date": "2026-01-30",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_1100",
+      "date": "2026-01-30",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_1200",
+      "date": "2026-01-30",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_1300",
+      "date": "2026-01-30",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_1400",
+      "date": "2026-01-30",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_1500",
+      "date": "2026-01-30",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_1600",
+      "date": "2026-01-30",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_1700",
+      "date": "2026-01-30",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260130_1800",
+      "date": "2026-01-30",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_0700",
+      "date": "2026-01-31",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_0800",
+      "date": "2026-01-31",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_0900",
+      "date": "2026-01-31",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_1000",
+      "date": "2026-01-31",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_1100",
+      "date": "2026-01-31",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_1200",
+      "date": "2026-01-31",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_1300",
+      "date": "2026-01-31",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_1400",
+      "date": "2026-01-31",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_1500",
+      "date": "2026-01-31",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_1600",
+      "date": "2026-01-31",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_1700",
+      "date": "2026-01-31",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260131_1800",
+      "date": "2026-01-31",
+      "time": "18:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_0700",
+      "date": "2026-02-01",
+      "time": "07:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_0800",
+      "date": "2026-02-01",
+      "time": "08:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_0900",
+      "date": "2026-02-01",
+      "time": "09:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_1000",
+      "date": "2026-02-01",
+      "time": "10:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_1100",
+      "date": "2026-02-01",
+      "time": "11:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_1200",
+      "date": "2026-02-01",
+      "time": "12:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_1300",
+      "date": "2026-02-01",
+      "time": "13:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_1400",
+      "date": "2026-02-01",
+      "time": "14:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_1500",
+      "date": "2026-02-01",
+      "time": "15:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_1600",
+      "date": "2026-02-01",
+      "time": "16:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_1700",
+      "date": "2026-02-01",
+      "time": "17:00",
+      "booked": false
+    },
+    {
+      "id": "slot_20260201_1800",
+      "date": "2026-02-01",
+      "time": "18:00",
+      "booked": false
+    }
+  ]
+}

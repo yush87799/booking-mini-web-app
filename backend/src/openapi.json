@@ -1,0 +1,144 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Court Booking API",
+    "description": "A RESTful API for managing court/turf booking slots",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:5000",
+      "description": "Development server"
+    }
+  ],
+  "paths": {
+    "/api/slots": {
+      "get": {
+        "summary": "Fetch all available slots",
+        "description": "Retrieves a list of all booking slots with their availability status",
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved slots",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "slots": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": { "type": "string" },
+                          "date": { "type": "string", "format": "date" },
+                          "time": { "type": "string" },
+                          "booked": { "type": "boolean" },
+                          "bookedBy": { "type": "string" },
+                          "bookedAt": { "type": "string", "format": "date-time" }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/api/book": {
+      "post": {
+        "summary": "Book a slot",
+        "description": "Books an available slot for a customer",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["slotId"],
+                "properties": {
+                  "slotId": {
+                    "type": "string",
+                    "description": "The unique identifier of the slot to book"
+                  },
+                  "customerName": {
+                    "type": "string",
+                    "description": "Name of the customer booking the slot",
+                    "default": "Guest"
+                  }
+                }
+              },
+              "example": {
+                "slotId": "slot_1",
+                "customerName": "John Doe"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Slot booked successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "booked": { "type": "boolean" },
+                    "slot": {
+                      "type": "object",
+                      "properties": {
+                        "id": { "type": "string" },
+                        "date": { "type": "string" },
+                        "time": { "type": "string" },
+                        "booked": { "type": "boolean" },
+                        "bookedBy": { "type": "string" },
+                        "bookedAt": { "type": "string" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request - missing required fields"
+          },
+          "404": {
+            "description": "Slot not found"
+          },
+          "409": {
+            "description": "Slot is already booked"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "summary": "Health check endpoint",
+        "description": "Returns the health status of the API",
+        "responses": {
+          "200": {
+            "description": "API is healthy",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "ok": { "type": "boolean" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
