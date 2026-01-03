@@ -64,6 +64,18 @@ This is a full-stack court booking system designed for sports facilities. The ap
 - **JSON File-based Storage**: Simple file-based database using `slots.json`
 - **Easy Migration**: Can be easily migrated to MongoDB, PostgreSQL, or any other database
 
+
+## 🚧 Development Journey & Challenges
+
+### Issues Faced
+
+Initially, I created a manual booking page that required new entries to be added manually. Realizing this wasn't scalable, I researched how to build a dynamic calendar interface and, with the help of AI tools, transformed it into a more real-world usable solution. I also made it mobile-friendly for better accessibility. At first, I worked on implementing SQL for data storage, but due to hosting limitations and time constraints, I shifted to JSON-based storage to ensure proper functionality when hosted. In the future, I plan to migrate back to SQL for easier integration between backend and frontend.
+
+### Future Plans
+
+I'm currently working on adding an admin panel that will allow administrators to remove and add persons, as well as modify slots if needed. This will provide better control and management capabilities for the booking system.
+
+
 ### API Documentation
 
 - **OpenAPI 3.0**: RESTful API specification for documentation and testing
@@ -879,16 +891,6 @@ For production deployment, consider implementing:
    - Consistent error responses
    - OpenAPI documentation
    - Proper HTTP status codes
-
-## 🚧 Development Journey & Challenges
-
-### Issues Faced
-
-Initially, I created a manual booking page that required new entries to be added manually. Realizing this wasn't scalable, I researched how to build a dynamic calendar interface and, with the help of AI tools, transformed it into a more real-world usable solution. I also made it mobile-friendly for better accessibility. At first, I worked on implementing SQL for data storage, but due to hosting limitations and time constraints, I shifted to JSON-based storage to ensure proper functionality when hosted. In the future, I plan to migrate back to SQL for easier integration between backend and frontend.
-
-### Future Plans
-
-I'm currently working on adding an admin panel that will allow administrators to remove and add persons, as well as modify slots if needed. This will provide better control and management capabilities for the booking system.
 
 ## 🐛 Troubleshooting
 
