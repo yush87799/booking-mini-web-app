@@ -8,6 +8,11 @@ A modern, full-stack booking application for courts and turfs built with Next.js
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38bdf8)
 
+## 🌐 Live Demo
+
+- **Frontend (Vercel)**: [https://booking-mini-web-app-bcm4.vercel.app/](https://booking-mini-web-app-bcm4.vercel.app/)
+- **Backend (Render)**: [https://booking-mini-web-app.onrender.com](https://booking-mini-web-app.onrender.com)
+
 ## 📖 Project Overview
 
 This is a full-stack court booking system designed for sports facilities. The application features:
@@ -874,6 +879,16 @@ For production deployment, consider implementing:
    - Consistent error responses
    - OpenAPI documentation
    - Proper HTTP status codes
+
+## 🚧 Development Journey & Challenges
+
+### Issues Faced
+
+Initially, I created a manual booking page that required new entries to be added manually. Realizing this wasn't scalable, I researched how to build a dynamic calendar interface and, with the help of AI tools, transformed it into a more real-world usable solution. I also made it mobile-friendly for better accessibility. At first, I worked on implementing SQL for data storage, but due to hosting limitations and time constraints, I shifted to JSON-based storage to ensure proper functionality when hosted. In the future, I plan to migrate back to SQL for easier integration between backend and frontend.
+
+### Future Plans
+
+I'm currently working on adding an admin panel that will allow administrators to remove and add persons, as well as modify slots if needed. This will provide better control and management capabilities for the booking system.
 
 ## 🐛 Troubleshooting
 
